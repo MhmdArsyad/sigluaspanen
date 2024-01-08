@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>SIG Kabupaten Malang</title>
+  <meta name="title" content="SIG Kabupaten Malang">
+
+  <link rel="shortcut icon" href="images/Logo_Kabupaten_Malang.png" type="image">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/kab_malang.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <img src="images/Logo_Kabupaten_Malang.png" class="logo">
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#tentang" class="navbar-link" data-nav-link>Tentang</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#kontak" class="navbar-link" data-nav-link>Kontak</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#petatematik" class="btn has-before">
+          <span class="span">Peta Tematik</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <article>
+
+      <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+        style="background-image: url('images/kab_malang.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">Sistem Informasi Geografis Luas Panen di Kabupaten Malang tahun 2018 </h1>
+          <br>
+          <a href="#petatematik" class="btn has-before">
+            <span class="span">Eksplor Peta</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+      <section class="section service" id="tentang" aria-label="tentang">
+        <div class="container">
+          <h2 class="h2 section-title text-center">Sistem Informasi Geografis</h2>
+          <p class="section-text text-center">
+            Sistem Informasi Geografis ini menyajikan data mengenai hasil Luas Panen Tumbuhan Pangan, Buah, dll. yang ada di
+            Kabupaten Malang pada Tahun 2018. Sistem Informasi Geografis ini dibuat sebagai salah satu Hasil Penelitian
+            dari Mata Kuliah Sistem Informasi Geografis di Universitas PGRI Semarang yang berjudul "Sistem Informasi
+            Geografis Luas Panen di Kabupaten Malang Berbasis Web".
+          </p>
+        </div>
+      </section>
+
+
+
+
+      <section class="section gallery" id="petatematik" aria-label="photo petatematik">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 class="h2 section-title">PETA TEMATIK</h2>
+
+              <p class="section-text">
+                Semua data disini dimuat berdasarkan data di website :
+                <a class="blue-link" href="https://opendata.jatimprov.go.id/frontend/homepage">Open Data Jatim</a> 
+              </p>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/padi.jpg" width="422" height="550" loading="lazy" alt="Padi"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Padi Sawah</h3>
+
+                  <p class="card-text">Luas Panen dan Produksi</p>
+
+                  <a href="padi.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/bayam.jpg" width="422" height="550" loading="lazy" alt="Bayam"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Bayam</h3>
+
+                  <p class="card-text">Luas Panen Bayam</p>
+
+                  <a href="bayam.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/jeruksiam.jpg" width="422" height="550" loading="lazy" alt="Jeruk Siam"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Jeruk Siam</h3>
+
+                  <p class="card-text">Luas Panen Jeruk Siam</p>
+
+                  <a href="jeruksiam.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/cengkeh.webp" width="422" height="550" loading="lazy" alt="Cengkeh"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Cengkeh</h3>
+
+                  <p class="card-text">Luas Panen Cengkeh</p>
+
+                  <a href="cengkeh.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/buncis.jpg" width="422" height="550" loading="lazy" alt="Buncis"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Buncis</h3>
+
+                  <p class="card-text">Luas Panen Buncis</p>
+
+                  <a href="buncis.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/cabai.jpg" width="422" height="550" loading="lazy" alt="Cabai"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Cabai</h3>
+
+                  <p class="card-text">Luas Panen Cabai</p>
+
+                  <a href="cabai.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/mentimun.webp" width="422" height="550" loading="lazy" alt="Mentimun"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Mentimun</h3>
+
+                  <p class="card-text">Luas Panen Mentimun</p>
+
+                  <a href="mentimun.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/manggis.jpg" width="422" height="550" loading="lazy" alt="Manggis"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Manggis</h3>
+
+                  <p class="card-text">Luas Panen Manggis</p>
+
+                  <a href="manggis.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/kangkung.jpg" width="422" height="550" loading="lazy" alt="Kangkung"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Kangkung</h3>
+
+                  <p class="card-text">Luas Panen Kangkung</p>
+
+                  <a href="kangkung.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/pisang.jpg" width="422" height="550" loading="lazy" alt="Pisang"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Pisang</h3>
+
+                  <p class="card-text">Luas Panen Pisang</p>
+
+                  <a href="pisang.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="gallery-card">
+
+                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                  <img src="images/kacangpanjang.jpg" width="422" height="550" loading="lazy" alt="Kacang Panjang"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Kacang Panjang</h3>
+
+                  <p class="card-text">Luas Panen Kacang Panjang</p>
+
+                  <a href="kcgpanjang.html" class="card-btn" aria-label="Read more">
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+  <section class="kontak" id="kontak">
+    <footer class="footer">
+      <div class="container">
+        <br>
+        <div class="footer-top">
+
+          <div class="footer-link-box">
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Kontak Kami</p>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="contact-link">
+                  Jl. Sidodadi Timur No.24, Karangtempel, Kec. Semarang Tim., Kota Semarang, Jawa Tengah 50232
+                </address>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:+0123456789" class="contact-link">+62 83 843 983 247</a>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                <span class="contact-link">Senin - Jum'at, 08.00 - 17.00 WIB</span>
+              </li>
+
+              <li class="footer-list-item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="mailto:mhmdarsyad5@gmail.com" class="contact-link">mhmdarsyad5@gmail.com</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2024 <a href="https://github.com/MhmdArsyad" class="copyright-link">Muhammad Arsyad B.</a>
+          </p>
+        </div>
+
+      </div>
+    </footer>
+  </section>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
